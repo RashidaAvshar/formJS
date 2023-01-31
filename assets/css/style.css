@@ -1,1 +1,86 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 50px 300px;
+  background-color: rgb(207, 216, 224);
+  display: flex;
+  justify-content: center;
+}
+.container .box {
+  width: 1200px;
+  height: 1500px;
+  margin: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+.container .box .sign-up {
+  width: 1100px;
+  height: 1400px;
+  margin: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(237, 231, 225);
+  display: flex;
+  flex-direction: column;
+}
+.container .box .sign-up h1 {
+  font-size: 70px;
+  margin: 50px;
+  margin-left: 450px;
+}
+.container .box .sign-up .form {
+  width: 1000px;
+}
+.container .box .sign-up .form input {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 15px;
+  background-color: rgb(237, 231, 225);
+  font-size: 35px;
+  padding: 25px;
+}
+.container .box .sign-up .form p {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 35px;
+}
+.container .box .sign-up .agree {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  align-items: center;
+}
+.container .box .sign-up .agree input {
+  width: 30px;
+  height: 30px;
+  margin: 25px;
+}
+.container .box .sign-up .agree p {
+  font-size: 35px;
+}
+.container .box .sign-up button {
+  width: 950px;
+  height: 100px;
+  margin: 25px 75px;
+  font-size: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(131, 53, 131);
+  font-weight: 900;
+  cursor: pointer;
+}
+.container .box .sign-up span {
+  margin: 15px 310px;
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */
